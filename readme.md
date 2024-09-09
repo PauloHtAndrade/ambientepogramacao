@@ -96,7 +96,6 @@ Faça o download aqui:
 
 <img src=tela_pacotesdeatualizacao.png>
 
-- Tela de configuração do disco
 
 <img src=tela_configuracaodedisco.png>
 
@@ -116,10 +115,52 @@ Faça o download aqui:
 
 <img src=tela_fimdainstacao.png>
 
+#### Atualização do sistema
+
+Para a utilização do servidor Ubuntu que acabamos de instalar, será nescessário a atualização do sistema.
+
+Execute o comando abaixo:
+
+```
+sudo apt update -y && sudo apt upgrade -y
+```
 
 
+reinicie o seu servidor  usando o comando abaixo:
+
+```
+reboot
+```
+
+#### instalaçao do copilador NASM
+O copilado do NASM é uma ferramenta que nos permite programar em Assembly. Assim é possível criar programas que manipulam dados que estão nos registradores do processador.
+
+pra instalar o NASM no Ubuntu, usamos o comando:
+
+```
+sudo apt install nasm -y
+```
+#### Instalação do compilador da linguagem C
+
+Em Linux, o compilador da linguagem C é o GCC. Ele é uma ferramenta importante para o desenvolvimento de programas em C.
+
+Para instalar use o comando:
+
+```
+sudo apy install gcc -y
+```
+
+#### Conexão SErvidor e VSCode via SSH
+
+Precisamos instalar uma extensão no VSCode para acessar o nosso servidor de forma remota.
 
 
+!["Extensão SSH"](extensaossh.png)
+
+
+Configuração do acesso remoto.
+
+!["Configuração"](configuracaoextensao.png)
 
 
 
